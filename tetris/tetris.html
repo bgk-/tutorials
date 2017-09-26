@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tetris</title>
+    <style>
+      body {
+        background-color: #505050;
+        font-size: 2em;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      canvas {
+        border: solid .2em #fff;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="score"></div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <br>
+    <div>Rotate = Q/W</div>
+    <audio id="music" controls>
+      <source src="Tetris.ogg" type="audio/ogg">
+    </audio>
+    <script src="tetris.js"></script>
+
+  </body>
+</html>
